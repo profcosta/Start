@@ -21,6 +21,7 @@ nav{
     padding: 10px 0px;
     width: 250px;
     height: 100vh;
+    width: 40%;
 }
 
 nav ul{
@@ -58,7 +59,7 @@ main{
     justify-content: center;
     font-size: 40px;
     padding: 30px;
-    width: 100%;
+    width: 60%;
 }
 
 main p{
