@@ -1,0 +1,53 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+.box{
+	display: block;
+	border: solid 1px;
+	height: 500px;
+}
+.container{
+	display: block;
+	margin: auto;
+	width: 1315px;
+	height: 510px;
+	padding: 5px;
+	background-color: blue;
+}
+.box-input{
+	background-color: coral;
+	width: 200px;
+	float: left;
+	padding: 10px;
+}
+.box-output{
+	background-color: #ffddee;
+	width: 1100px;
+	float: right;
+}
+.input{
+	height: 30px;
+	margin-top: 5px;
+	width: 100%;
+}
+button{
+	width: 100%;
+	margin-top: 5px;
+	height: 30px;
+}
+.grafico{
+	display: inline-block;
+	background-color: green;
+	border: solid 1px;
+	float: left;
+	text-align: center;
+	font-weight: 1000;
+}
+.msg{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+}

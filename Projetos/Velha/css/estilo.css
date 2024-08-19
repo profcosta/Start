@@ -1,0 +1,116 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+p{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.box{
+	display: block;
+	border: solid 1px;
+	height: 370px;
+}
+.container{
+	display: block;
+	margin: auto;
+	width: 615px;
+	height: 380px;
+	padding: 5px;
+	background-color: blue;
+}
+.box-input{
+	background-color: coral;
+	width: 200px;
+	float: left;
+	padding: 10px;
+	text-align: center;
+}
+.box-output{
+	display: flex;
+	justify-content: center;
+	align-items: top;
+	background-color: #ffddee;
+	width: 400px;
+	float: right;
+}
+
+.estrutural{
+	background-color: #32CD32;
+	border:solid 10px #006400;
+	border-radius: 15px;
+	width: 350px;
+}
+
+.tabuleiro{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	margin-top: 10px;
+	height: 350px;
+}
+.tabuleiro div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	border:solid 10px #006400;
+	border-radius: 15px;
+	cursor: pointer;
+	font-size: 3em;
+	font-weight: 1000;	
+	color: #800080;
+}
+
+.tabuleiro div:active, .inicio:active{
+	background-color: #7FFF00;
+}
+
+.status{
+	font-size: 1.4em;
+	font-weight: 800;	
+	color: #000;
+}
+
+.vencedor{
+	color:darkred;
+	background-color: coral;
+}
+
+button{
+	width: 100%;
+	margin-top: 5px;
+	height: 30px;
+}
+
+#final{
+	display: flex;
+	width: 100%;
+	height: 157px;
+	margin-top: 25px;
+	align-items: center;
+	justify-content: center;
+	border:solid 10px #006400;
+	border-radius: 15px;
+	background-color: #7FFF00;
+	font-size: 1.5em;
+	font-weight: 1000;	
+	color: #800080;
+}
+
+.input{
+	height: 30px;
+	margin-top: 5px;
+	width: 100%;
+}
+
+.grafico{
+	display: inline-block;
+	background-color: green;
+	border: solid 1px;
+	float: left;
+	text-align: center;
+	font-weight: 1000;
+}
