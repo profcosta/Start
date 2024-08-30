@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Rio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tela">
+        <div class="margem">O que não pertence a este lugar?</div>
+        <div class="rio">
+            <div class="jogo" id="jogo">
+                
+            </div>
+        </div>
+        <div class="margem"></div>
+    </div>
+    <div class="controle">
+        <div class="comandos acerto" id="placar">Acertos: XX</div>
+        <div class="lata" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="comandos reset" onclick="reset();">Reiniciar</div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

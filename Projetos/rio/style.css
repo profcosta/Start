@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tela{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width: 100vw;
+}
+
+.margem{
+    height: 20%;
+    background-color: green;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    padding-top: 20px;
+
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.rio{
+    height: 60%;
+    background-color: blue;
+}
+.rio .jogo{
+    margin: 10px;
+    width: 80%;
+    height:95%;
+}
+
+.objeto{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; 
+    z-index: 9999;
+}
+
+.objeto img{
+    width: 100%;
+}
+
+.controle{
+    position: absolute;
+    width: 18%;
+    height: 70vh;
+    top:15%;
+    right: 10px;
+    background-color: yellow;
+    opacity: 0.9;
+    border-radius: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;   
+}
+
+.controle .comandos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    min-height: 30px;
+    margin: 10px;
+}
+
+.controle .reset{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: gray;
+    border-radius: 20px; 
+    cursor: pointer;
+}
+
+.controle .acerto{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.controle .lata {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("img/lata.webp") no-repeat center;
+    background-size: 80%;
+}
+
+.controle .lata img {
+    height: 100%;
+}
